@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    color:rgb(40, 81, 216);;
+    background-image: url(cinema.jpg);
+    background-size: cover;
+    opacity:1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3{
+    margin:50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#title{
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top:30px;
+    padding: 20px;
+    
+}
+
+.user,.password{
+    padding:15px;
+    margin:auto;
+    text-align: left;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+
+input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid gray;
+    font-size: 18px;
+  
+}
+
+
+ .submit input {
+    margin-bottom:25px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 1.5px;
+    letter-spacing: 1.5px;
+    color: rgb(151, 18, 204);
+    background-color: rgb(16, 184, 119);
+    font-weight:bolder;
+    border-radius: 20px;
+
+
+}
+
+.submit input:hover{
+    cursor: pointer;
+    background-color:rgb(230, 227, 233);
+}
+
+
+.error{
+    width: auto;
+    display: block;
+    background-color: darkred;
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 10px;
+    padding: 15px;
+}
+
+
+
+main{
+    text-align: center;
+    margin:auto;
+    max-width: 500px;
+    
+}
+
+.signup_btn{
+
+font-weight: bold;
+color: blueviolet;
+
+}
+
+.signup_btn:hover{
+    transition-duration: 1.5s;
+    color: blue;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+
+
+
+
